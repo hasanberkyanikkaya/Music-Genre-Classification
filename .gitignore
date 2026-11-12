@@ -1,0 +1,18 @@
+# Large data files (too large for GitHub)
+data/*.npy
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# Trained model files (large binaries - regenerate by running training)
+models/*.pkl
+models/*.keras
+
+# OS files
+.DS_Store
+Thumbs.db
